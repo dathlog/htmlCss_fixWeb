@@ -1,0 +1,202 @@
+#header .header-wrapper #masthead .header-inner {
+    background-color: #1d1d1d;
+}
+
+.fix-relative {
+    position: relative;
+}
+.fix-absolute {
+    position: absolute;
+}
+.fix-row {
+    display: flex;
+}
+.fix-transition {
+    transition: all .3s ease-in-out;
+}
+.fix-left-0 {
+    left: 0;
+}
+.fix-right-0 {
+    right: 0;
+}
+.fix-bottom-0 {
+    bottom: 0;
+}
+.fix-w-mc {
+    width: max-content;
+}
+.fix-pd-16 {
+    padding: 16px;
+}
+.fix-pd-8 {
+    padding: 8px;
+}
+.fix-pd-i > i {
+    padding: 0 5px;
+}
+.fix-br-50pc {
+    border-radius: 50%;
+}
+.fix-center-y {
+    display: flex;
+    align-items: center;
+}
+.fix-center-y {
+    display: flex;
+    justify-content: center;
+}
+.fix-center-text {
+    text-align: center;
+}
+
+.fix-cl-white {
+    color: white;
+}
+.fix-cl-darkgray {
+    color: darkgray;
+}
+#news-0101 {
+    background-color: white;
+    padding: 20px;
+    color: #1d1d1d;
+}
+#news-0101 h1 {
+    color: red;
+    font-size: 32px;
+    
+}
+#news-0101 .scroll {
+    overflow: auto;
+    width: 100%;
+}
+#news-0101 .container-news {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+#news-0101 .container-news .card-blog {
+    box-shadow: 0 0 10px #e2e2e2;
+    border-radius: 15px;
+    flex: 1 1 200px;    
+}
+#news-0101 .container-news .card-blog img {
+    transition: all .3s ease-in-out;
+}
+#news-0101 .container-news .card-blog:hover img {
+    transform: scale(1.1);
+}
+#news-0101 .container-news .card-blog .image
+{
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+}
+#news-0101 .container-news .card-blog .info-author h3,
+#news-0101 .container-news .card-blog .info-author {
+    color: white;    
+}
+#news-0101 .container-news .card-blog .info-author {
+    bottom: 20px;
+}
+#news-0101 .container-news .card-blog .info-author img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+#news-0101 .container-news .card-blog .content {
+    padding: 20px;
+}
+
+#news-0101 .container-news h2.title {
+    font-size: 22px;
+    color: black;
+    margin: 10px 0;
+
+}
+
+#news-0101 .container-news .card-blog .content a {
+    position: relative;
+    bottom: 3%;
+    color: sandybrown;
+}
+
+
+#row-1222602563 .container-products {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+#row-1222602563 .container-products .product:hover img {
+    transform: scale(1.1);
+}
+#row-1222602563 .container-products .product {
+    flex: 1 1 200px;
+}
+
+#row-1222602563 .container-products .product .image {
+    max-height: 272px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+#row-1222602563 .container-products .product h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+}
+
+
+#content .container-contact input,
+#content .container-contact textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 16px;
+    color: white;
+    margin-bottom: 20px;
+    height: 100%;
+    opacity: 0.5;
+}
+
+#content .container-contact input:focus-visible,
+#content .container-contact textarea:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+#content .container-contact .label-input textarea:focus,
+#content .container-contact .label-input textarea:not(:placeholder-shown) {
+    opacity: 1;
+}
+#content .container-contact .label-input input:focus,
+#content .container-contact .label-input input:not(:placeholder-shown) {
+    opacity: 1;
+}
+
+#content .container-contact .label-input textarea:focus + label,
+#content .container-contact .label-input textarea:not(:placeholder-shown) + label {
+    display: none;
+    
+}
+#content .container-contact .label-input input:focus + label,
+#content .container-contact .label-input input:not(:placeholder-shown) + label {
+    display: none;
+    
+}
+
+#content .container-contact .label-input label{
+    top: 14px;
+    left: 17px;
+    transition: all .3s ease-in-out;
+    color: darkgray;
+    letter-spacing: 1px;
+}
+
+#content .container-contact button{
+    padding: 13px;
+    width: 100%;
+    color: white;
+}
+#content .container-contact button:hover {
+    background: transparent;
+    border: 1px solid white;    
+}
