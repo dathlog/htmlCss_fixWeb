@@ -209,7 +209,6 @@
 }
 
 #content .container-contact button{
-    padding: 13px;
     width: 100%;
     color: white;
 }
@@ -264,4 +263,11 @@ span.person-name {
 }
 .checkbox-9987 input:checked + label {
     color: white;
+}
+#row-1828832728 .container-contact button {
+    font-weight: 100;
+    width: max-content;
+    padding: 8px 30px;
+    border-radius: 100px;
+    margin-top: 10px;
 }
