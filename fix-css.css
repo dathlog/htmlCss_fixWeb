@@ -251,3 +251,17 @@ span.person-name {
     display: flex;
     flex-wrap: wrap;
 }
+
+#footer .footer-1 {
+    background-color: #111517 ;
+    border-top: 1px solid #777777;
+}
+.checkbox-9987 label {
+    color: darkgray;
+}
+.checkbox-9987:hover label {
+    color: white;
+}
+.checkbox-9987 input:checked + label {
+    color: white;
+}
