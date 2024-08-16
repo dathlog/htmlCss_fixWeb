@@ -228,6 +228,7 @@
 .fix-row-wrap {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .team-9912 {
     position: relative;
