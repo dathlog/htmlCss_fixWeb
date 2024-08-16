@@ -224,62 +224,16 @@
 .container-3245 p:hover {
     color: white;
 }
-
-.fix-row-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+span.person-title.is-small.thin-font.op-7 {
+    color: chartreuse;
 }
-.team-9912 {
-    position: relative;
-    overflow: hidden;
-    margin: 20px;
-    flex: 1 1 200px;
+span.person-name {
+    font-size: 20px;
 }
-
-.team-9912 .image {
-    overflow: hidden;
-}
-
-.team-9912 img {
+.p-9916 {
+    border-left: 4px solid red;
+    padding-left: 10px;
+    margin: 10px;
+    text-align: left !important;
     width: 100%;
-    height: auto;
-    transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-.team-9912:hover img {
-    transform: scale(1.1);
-    filter: grayscale(100%);
-}
-
-.team-9912 .content {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    transform: translateY(100%);
-    transition: transform 0.3s ease;
-}
-
-.team-9912:hover .content {
-    transform: translateY(0);
-}
-
-.team-9912 .info h1,
-.team-9912 .info p {
-    margin: 0;
-    padding: 0;
-}
-
-.team-9912 .info h1 {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.team-9912 .info p {
-    font-size: 1em;
-    margin-top: 10px;
 }
