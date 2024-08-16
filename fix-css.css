@@ -277,3 +277,6 @@ span.person-name {
     color: #FF0000 !important;
     text-align: center;
 }
+.is-divider {
+    background-color: transparent;
+}
