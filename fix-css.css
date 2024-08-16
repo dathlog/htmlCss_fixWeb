@@ -235,12 +235,12 @@ span.person-title.is-small.thin-font.op-7 {
 span.person-name {
     font-size: 20px;
 }
-.p-9916 {
+/* .p-9916 {
     border-left: 4px solid red;
     padding-left: 10px;
     text-align: left !important;
     width: 100%;
-}
+} */
 .header-nav-main a {
     text-transform: none;
     text-transform: capitalize;
@@ -254,6 +254,7 @@ span.person-name {
 #footer .footer-1 {
     background-color: #111517 ;
     border-top: 1px solid #777777;
+    color: white    ;
 }
 .checkbox-9987 label {
     color: darkgray;
